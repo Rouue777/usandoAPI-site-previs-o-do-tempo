@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <title>Previsão do Tempo</title>
+</head>
+
+<body>
+
+    <div class="caixaMaior">
+        <input class="inputCidade" placeholder="Digite alguma coisa....">
+        <button class="button" onclick="botaoBusca()">
+            <img class="imgLupa" src="https://www.svgrepo.com/show/488200/find.svg" alt="lupa">
+        </button>
+        <div class="caixaMedia">
+            <h2 class="cidade">tempo em</h2>
+
+            <p class="temp">°C</p>
+
+            <div class="caixaMenor">
+                <img class="imgPrevisao" src="https://openweathermap.org/img/wn/04n.png" alt="icon-info-tempo">
+                <p class="textoPrevisao">tempo previsto</p>
+
+
+            </div>
+            <p class="umidade">umidade</p>
+        </div>
+    </div>
+
+
+
+    <script src="script.js">
+
+    </script>
+
+</body>
+
+</html>
